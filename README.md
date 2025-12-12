@@ -45,7 +45,6 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - [ ] Setup conky
 - [ ] Add dock?
 - [ ] Add filesystem info on polybar
-- [ ] Add caps lock indicator on polybar
 - [ ] Add bluetooth status on polybar
 - [ ] Add CPU/GPU/RAM info on polybar/conky
 - [ ] Add notifyd (xfce4)
