@@ -48,7 +48,6 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - [ ] Add caps lock indicator on polybar
 - [ ] Add bluetooth status on polybar
 - [ ] Add CPU/GPU/RAM info on polybar/conky
-- [ ] Change workspace names to icons (i3) or something better looking
 - [ ] Add notifyd (xfce4)
 - [ ] Add custom icons (gtk)
 - [ ] Lock screen
