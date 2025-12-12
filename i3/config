@@ -35,11 +35,11 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # Change Workspace Names
-set $ws1 "I"
-set $ws2 "II"
-set $ws3 "III"
-set $ws4 "IV"
-set $ws5 "V"
+set $ws1 " Main"
+set $ws2 " Free"
+set $ws3 " Steam"
+set $ws4 " Games"
+set $ws5 " 2nd"
 
 # Define Monitors
 set $monitor_primary "DP-2"
@@ -53,10 +53,15 @@ workspace $ws4 output $monitor_primary
 workspace $ws5 output $monitor_secondary
 
 # Switch Between Workspaces
+# Exclusive to the first monitor ($ws1), ($ws2) is auxiliar
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
+
+# Exlusive to steam ($ws3) and games ($ws4)
 bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
+
+# Exclusive to the second monitor ($w5)
 bindsym $mod+5 workspace $ws5
 
 # Move Focused Window To Target Workspace
@@ -195,9 +200,6 @@ for_window [class="Mate-system-monitor"] floating enable, move position center, 
 
 # Enable Floating Window For Mousepad, Opens At Center, 800 600
 for_window [class="Mousepad"] floating enable, move position center, resize set 800 600
-
-# Enable Floating Window For AnyDesk, Opens At Center, 1080 720
-for_window [class="Anydesk"] floating enable, move position center, resize set 1080 720
 
 # Enable Floating Window For Pavucontrol, Opens At Center, 800 600
 for_window [class="pavucontrol"] floating enable, move position center, resize set 800 600
