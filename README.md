@@ -1,6 +1,19 @@
 # dotfiles
 My dotfiles
 
+## Default keybindings
+- `Super+Shift+c` - Restart i3 config in place
+- `Super+Shift+r` - Reload i3 config in place
+- `Super+q` - Opens **Alacritty** (Console/Terminal)
+- `Super+d` - Opens **dmenu** (Application Launcher)
+- `Super+f` - Opens **Thunar** (File Explorer)
+- `Super+z` - Opens **Mate System Monitor**
+- `Super+a` - Opens **Mousepad** (Text Editor)
+- `Super+Shift+p` - Opens **Scrot** (Screenshot)
+> The other keybindings can be found in i3/config
+
+**OBS**: Both **picom** and **polybar** restarts automatically when saving their configuration files.
+
 ## Dependencies 
 These are being used at least once in the `i3/config`, includes utilities too:
 ```
@@ -51,10 +64,7 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - [ ] Add CPU/GPU/RAM info on polybar/conky
 - [ ] Add notifyd (xfce4)
 - [ ] Add custom icons (gtk)
-- [ ] Lock screen
-- [ ] Add window title at left most side of polybar.
-- [ ] Change i3 accent color to match GTK theme.
+- [ ] Add Lock screen
 - [ ] Clipboard manager + indicator on polybar
-- [ ] OSD for volume and caps lock
-- [ ] Configure lightdm
+- [ ] Customize lightdm
 - [ ] Add vscode settings
