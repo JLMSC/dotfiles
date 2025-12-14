@@ -212,11 +212,3 @@ for_window [class="steam_app_*"] move to workspace $ws4
 
 # Enable Floating Window for XCalc, Opens At Center
 for_window [class="XCalc"] floating enable, move position center
-
-##########
-# COLORS #
-##########
-
-client.focused #000000 #000000 #000000 #000000 #000000
-client.unfocused #000000 #000000 #000000 #000000 #000000
-client.focused_inactive #000000 #000000 #000000 #000000 #000000
