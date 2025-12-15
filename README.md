@@ -45,6 +45,7 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - Profile: `~/.profile`
 - GTK: `~/.config/gtk-3.0/`
 - Picom: `~/.config/picom/`
+- bashrc: `~/.bashrc`
 
 ## Custom Actions (Thunar)
 - Open Terminal Here: `alacritty --working-directory %f` (Appearance Conditions: `Directories **`)
