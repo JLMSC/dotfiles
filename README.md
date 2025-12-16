@@ -65,3 +65,4 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - [ ] Add `symlinks.sh` (copies (symlinks) configs to correct path)
 - [ ] Add `Caskaydia Cove` install step in `install.sh`
 - [ ] Add `services.sh` (enable runit services)
+- [ ] Rewrite README after everything is done
