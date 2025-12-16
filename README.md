@@ -57,14 +57,6 @@ These are being used at least once in the `i3/config`, includes utilities too:
 ## Custom Actions (Thunar)
 - Open Terminal Here: `alacritty --working-directory %f` (Appearance Conditions: `Directories **`)
 
-## Observations (Known Bugs)
-- There is no automatic detection for monitors, need to define it in the configurations files that uses them.
-- ~A monitor won't recover its image when changing its source from A -> B -> A, need to restart the monitor.~
-> *(It can be solved by installing the GPU drivers)*
-- ~Missing characters for other languages such as kr, jp, ch; emojis/special characters not being displayed~
-> *(It can be solved by installing xorg-fonts, noto-fonts-cjk, noto-fonts-emoji, nerd-fonts, noto-fonts-ttk: These packages are for Void Linux)*
-
-
 ## TO DO
 - [ ] Add filesystem info on polybar
 - [ ] Add bluetooth status on polybar
