@@ -61,7 +61,6 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - [ ] Add filesystem info on polybar
 - [ ] Add bluetooth status on polybar
 - [ ] Add Lock screen
-- [ ] Clipboard manager + indicator on polybar
 - [ ] Add `symlinks.sh` (copies (symlinks) configs to correct path)
 - [ ] Add `Caskaydia Cove` install step in `install.sh`
 - [ ] Add `services.sh` (enable runit services)
