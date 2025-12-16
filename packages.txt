@@ -5,7 +5,9 @@ alacritty
 # Network / Utils
 curl
 xsel
+xclip
 bluez
+clipmenu
 pavucontrol
 
 # WM / UI
