@@ -1,0 +1,30 @@
+# File Manager / Terminal
+Thunar
+alacritty
+
+# Network / Utils
+curl
+xsel
+bluez
+pavucontrol
+
+# WM / UI
+i3
+feh
+dmenu
+scrot
+picom
+polybar
+
+# Editors
+vim
+nano
+mousepad
+
+# System Monitor
+mate-system-monitor
+
+# Fonts
+nerd-fonts
+noto-fonts-cjk
+noto-fonts-emoji
