@@ -43,7 +43,6 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - xprop
 - xrdb
 ```
-
 ## Configuration File Paths
 - i3: `~/.config/i3/`
 - Polybar: `~/.config/polybar/`
@@ -65,15 +64,12 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - ~Missing characters for other languages such as kr, jp, ch; emojis/special characters not being displayed~
 > *(It can be solved by installing xorg-fonts, noto-fonts-cjk, noto-fonts-emoji, nerd-fonts, noto-fonts-ttk: These packages are for Void Linux)*
 
+
 ## TO DO
-- [ ] Setup conky
-- [ ] Add dock?
 - [ ] Add filesystem info on polybar
 - [ ] Add bluetooth status on polybar
-- [ ] Add CPU/GPU/RAM info on polybar/conky
-- [ ] Add notifyd (xfce4)
-- [ ] Add custom icons (gtk)
 - [ ] Add Lock screen
 - [ ] Clipboard manager + indicator on polybar
-- [ ] Customize lightdm
-- [ ] Add vscode settings
+- [ ] Add `symlinks.sh` (copies (symlinks) configs to correct path)
+- [ ] Add `Caskaydia Cove` install step in `install.sh`
+- [ ] Add `services.sh` (enable runit services)
