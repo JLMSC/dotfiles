@@ -14,4 +14,7 @@ sudo xbps-install -S $(grep -v '^#' packages.txt)
 echo ">> Synchronizing Packages"
 sudo xbps-install -S
 
-echo ">> Done"
+echo ">> Installing Step Done"
+
+# Configures Clipboard Manager in Polybar
+source install/clipboard.sh
