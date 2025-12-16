@@ -140,6 +140,9 @@ exec_always --no-startup-id bash -c 'for id in $(xinput list | grep -i "HP, Inc 
 
 #exec --no-startup-id xinput set-prop "HP, Inc HyperX Pulsefire Haste 2 Wireless" "libinput Accel Profile Enabled" 0 1
 
+# Clipboard Manager
+exec_always --no-startup-id clipmenud
+
 # Disables X11 Screensaver, Power Management and Blanking
 # (man xset)
 exec_always --no-startup-id xset s off
@@ -212,3 +215,4 @@ for_window [class="steam_app_*"] move to workspace $ws4
 
 # Enable Floating Window for XCalc, Opens At Center
 for_window [class="XCalc"] floating enable, move position center
+
