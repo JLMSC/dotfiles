@@ -3,6 +3,7 @@ Thunar
 alacritty
 
 # Network / Utils
+git
 curl
 xsel
 xclip
