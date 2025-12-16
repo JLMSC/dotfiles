@@ -16,5 +16,8 @@ sudo xbps-install -S
 
 echo ">> Installing Step Done"
 
+# Configures .bashrc
+source install/bashrc.sh
+
 # Configures Clipboard Manager in Polybar
 source install/clipboard.sh
