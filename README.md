@@ -62,6 +62,7 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - [ ] Add bluetooth status on polybar
 - [ ] Add Lock screen
 - [ ] Add `symlinks.sh` (copies (symlinks) configs to correct path)
+- [ ] Rewrite bashrc.sh to symlinks, don't copy over .bashrc just move it
 - [ ] Add `Caskaydia Cove` install step in `install.sh`
 - [ ] Add `services.sh` (enable runit services)
 - [ ] Rewrite README after everything is done
