@@ -1,7 +1,7 @@
 # dotfiles
-My dotfiles
+My dotfiles (i3wm + X11 + Void Linux)
 
-## Default keybindings
+## Majoir i3 keybindings
 - `Super+Shift+c` - Restart i3 config in place
 - `Super+Shift+r` - Reload i3 config in place
 - `Super+q` - Opens **Alacritty** (Console/Terminal)
@@ -12,8 +12,6 @@ My dotfiles
 - `Super+Shift+p` - Opens **Scrot** (Screenshot)
 > The other keybindings can be found in i3/config
 
-**OBS**: Both **picom** and **polybar** restarts automatically when saving their configuration files.
-
 ## Command Aliases
 - `ls` - `ls --color=auto` (List Directories)
 - `off` - `sudo shutdown -P now` (Shutdown)
@@ -22,27 +20,6 @@ My dotfiles
 - `xq` - `sudo xbps-query` (Searches for and Displays Information About Packages Installed)
 - `xr` - `sudo xbps-remove -Oov` (Removes Installed Packages)
 
-## Dependencies 
-These are being used at least once in the `i3/config`, includes utilities too:
-```
-- CaskaydiaCove Nerd Font Mono
-- dmenu
-- alacritty
-- thunar
-- mate-system-monitor
-- mousepad
-- pulseaudio
-- polybar
-- picom
-- pactl
-- pavucontrol
-- xinput
-- xrandr
-- setxkbmap
-- feh
-- xprop
-- xrdb
-```
 ## Configuration File Paths
 - i3: `~/.config/i3/`
 - Polybar: `~/.config/polybar/`
@@ -61,8 +38,6 @@ These are being used at least once in the `i3/config`, includes utilities too:
 - [ ] Add filesystem info on polybar
 - [ ] Add bluetooth status on polybar
 - [ ] Add Lock screen
-- [ ] Add `symlinks.sh` (copies (symlinks) configs to correct path)
-- [ ] Rewrite bashrc.sh to symlinks, don't copy over .bashrc just move it
 - [ ] Add `Caskaydia Cove` install step in `install.sh`
 - [ ] Add `services.sh` (enable runit services)
 - [ ] Rewrite README after everything is done
