@@ -26,7 +26,6 @@ link() {
 printf "\n. Creating Symlinks\n"
 link "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
 link "$DOTFILES_DIR/picom/picom.conf" "$HOME/.config/picom/picom.conf"
-link "$DOTFILES_DIR/clipmenu/config" "$HOME/.config/clipmenu/config"
 link "$DOTFILES_DIR/polybar/config.ini" "$HOME/.config/polybar/config.ini"
 link "$DOTFILES_DIR/polybar/scripts/clipboard.sh" "$HOME/.config/polybar/scripts/clipboard.sh"
 link "$DOTFILES_DIR/i3/config" "$HOME/.config/i3/config"
