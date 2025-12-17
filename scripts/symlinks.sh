@@ -32,6 +32,6 @@ link "$DOTFILES_DIR/polybar/scripts/clipboard.sh" "$HOME/.config/polybar/scripts
 link "$DOTFILES_DIR/i3/config" "$HOME/.config/i3/config"
 link "$DOTFILES_DIR/.icons/default/index.theme" "$HOME/.icons/default/index.theme"
 link "$DOTFILES_DIR/.Xresources" "$HOME/.Xresources"
-link "$DOTFILES_DIR/.profile" "$HOME/.profile"
+link "$DOTFILES_DIR/.zprofile" "$HOME/.zprofile"
 link "$DOTFILES_DIR/.config/gtk-3.0/settings.ini" "$HOME/.config/gtk-3.0/settings.ini"
 echo ". Done"

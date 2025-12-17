@@ -3,6 +3,9 @@
 # If not running interactively, don't do anything
 [[ -o interactive ]] || return
 
+# Source .zprofile if it exists
+[[ -f ~/.zprofile ]] && source ~/.zprofile
+
 # Oh My Zsh path
 export ZSH="$HOME/.oh-my-zsh"
 
