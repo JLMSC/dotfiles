@@ -22,6 +22,8 @@ shift $((OPTIND - 1))
 
 run_symlinks() {
     bash "$DOTFILES_DIR/scripts/symlinks.sh"
+
+    # TODO: Post install step (setup cursors and themes)
 }
 
 run_full_install() {
@@ -47,7 +49,7 @@ run_full_install() {
     else
         chsh -s "$(command -v zsh)"
         echo ". ZSH Set As Default Shell"
-        
+
         printf "\n. Installing Oh My ZSH\n"
         sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
         echo ". Oh My ZSH Installed"
