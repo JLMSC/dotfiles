@@ -16,10 +16,14 @@ link() {
     local dest="$2"
 
     backup "$dest"
+
+    mkdir -p "$(dirname "$dest")"
     ln -sfn "$src" "$dest"
+
     echo ". Linked $dest -> $src"
 }
 
 printf "\n. Creating Symlinks\n"
 link "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
+link "$DOTFILES_DIR/clipmenu/config" "$HOME/.config/clipmenu/config"
 echo ". Done"
