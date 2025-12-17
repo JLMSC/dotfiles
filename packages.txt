@@ -11,6 +11,12 @@ bluez
 clipmenu
 pavucontrol
 
+# Zsh / Oh My Zsh
+zsh
+zsh-completions
+zsh-autosuggestions
+zsh-syntax-highlighting
+
 # WM / UI
 i3
 feh
