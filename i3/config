@@ -145,8 +145,8 @@ font pango:CaskaydiaCove Nerd Font Mono,CaskaydiaCove NFM:style=Bold 16
 
 # Sets Keyboard layout.
 # (man setxkbmap)
-#exec_always --no-startup-id setxkbmap -layout us -variant -intl
-exec_always --no-startup-id setxkbmap -layout br -variant abnt2
+exec_always --no-startup-id setxkbmap -layout us -variant intl
+#exec_always --no-startup-id setxkbmap -layout br -variant abnt2
 
 # Sets Stacked Dual Monitors
 # (man xrandr)
@@ -251,10 +251,10 @@ for_window [class="XCalc"] floating enable, move position center
 # COLORS #
 ##########
 
-# target                 title     bg    text   indicator  border
-client.focused           $lavender $base $text  $rosewater $lavender
+# class                  text       bg      text      indicator       border
+client.focused           $lavender $base $text  $rosewater $red
 client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
-client.unfocused         $overlay0 $base $text  $rosewater $overlay0
+client.unfocused         $surface0 $crust $surface1  $rosewater $overlay0
 client.urgent            $peach    $base $peach $overlay0  $peach
 client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
